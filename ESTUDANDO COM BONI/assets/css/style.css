@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 990px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: larger;
+    color: #727272;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #39aae1;
+    color: #FFFF;
+
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner-headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-headline h1 {
+    color: #FFFFFF;
+    font-size: 70px;
+    text-shadow: 0px 1px 0px #555555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+}
+
+.banner-headline h2 {
+    color: #FFFFFF;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px #555555;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    max-width: 350px;
+}
+
+.banner-options {
+    height: 210px;
+    display: flex;
+
+}
+
+.banner1,
+.banner2,
+.banner3 {
+    flex:1;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.banner1 {
+    background-color: #39aae1;
+}
+
+.banner2 {
+    background-color: #0079c7;
+}
+
+.banner3 {
+    background-color: #2b4c99;
+}
+
+.banner-title {
+    font-size: 21px;
+}
+
+.banner-desc {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-options a {
+    display:inline-block;
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.days {
+    border-bottom: 1px solid #FFFFFF;
+    padding: 5px;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+    padding: 15px;
+}
+
+.widget-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.widget-title-text{
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget-title-bar {
+    width: 50px;
+    height: 3px;
+    background-color:#36a9e1;
+    margin: 10px 0px 10px 0px;
+}
+
+article a {
+    text-decoration: none;
+}
+
+article .news-data {
+    display: flex;
+}
+
+article .news-posted-at {
+    background-color: #2b4c99;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .news-comments {
+    background-color: #39aae1;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .news-thumbnail {
+    margin-top: 30px;
+}
+
+article .news-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+
+article .news-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000000;
+    font-size: 25px;
+}
+
+article .news-resume {
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex:1;
+    min-width: 300px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.dep-container {
+    justify-content: center;
+    flex-flow: column wrap;
+    height: 450px;
+    width: 200px;
+    align-items: flex-start;
+}
+
+.square {
+    height: 120px;
+    width: 120px;
+    background-color: #39aae1;
+    margin: 15px 15px 15px 0px;
+
+}
+
+.contact {
+    border-top: 1px solid #727272;
+}
+
+.contact-page {
+    border-top: 1px solid #727272;
+    border-bottom: 1px solid #727272;
+}
+
+.icon-style {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+
+.contact p, .contact-page, .icon-style, .widget-body p {
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.icon-style span {
+    background-color: #727272;
+    color: #FFFF;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
