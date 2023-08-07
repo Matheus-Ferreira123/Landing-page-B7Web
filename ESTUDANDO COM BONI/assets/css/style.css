@@ -10,6 +10,13 @@ header {
     height: 120px;
 }
 
+footer {
+    display: flex;
+    background-color: #161616;
+    justify-content: center;
+    height: 100%;
+}
+
 nav ul,
 nav li {
     list-style: none;
@@ -20,7 +27,6 @@ nav li {
 .container {
     display: flex;
     width: 990px;
-    justify-content: space-between;
 }
 
 .logo {
@@ -279,4 +285,34 @@ article {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.container-widget {
+    justify-content: space-between;
+    width: 990px;
+}
+
+footer .widget-title-text{
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.container-banner {
+    width: 330px;
+}
+
+footer span {
+    width: 20px;
+    height: 20px;
+    padding: 0px 0px 4px 4px;
+    
+}
+
+.banner-text-area {
+    align-items: center;
+}
+
+footer .widget-body {
+    margin: 30px 0px 30px 0px;
 }
