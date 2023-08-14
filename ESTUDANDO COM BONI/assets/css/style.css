@@ -345,3 +345,13 @@ footer .widget-body {
 .text2 {
     padding-top: 20px;
 }
+
+@media (max-width:769px){
+
+.container-banner {
+    width: 256px;
+}
+.banner-headline h1 {
+    font-size: 60px;
+}
+}
