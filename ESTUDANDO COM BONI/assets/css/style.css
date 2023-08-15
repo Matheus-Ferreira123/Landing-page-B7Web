@@ -355,3 +355,61 @@ footer .widget-body {
     font-size: 60px;
 }
 }
+
+@media (max-width: 426px) {
+    #geral .container {
+        display: block;
+
+    }
+
+    .banner-options {
+        display: block;
+    }
+    
+    #banner {
+        height: 100%;
+    }
+
+    .banner-options {
+        height: 100%;
+    }
+
+    .container-banner {
+        width: 100%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    section article {
+        margin-right: 0;
+    }
+
+    .banner-headline h2 {
+        margin-bottom: 40px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer .container {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 769px) and (min-width: 426px) {
+    #geral .container {
+        display: block;
+
+    }
+}
+
+@media (max-width: 635px){
+    .menu{
+        display: none;
+    }
+}
