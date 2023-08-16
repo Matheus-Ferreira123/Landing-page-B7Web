@@ -346,6 +346,43 @@ footer .widget-body {
     padding-top: 20px;
 }
 
+.menu-mobile-hidden{
+    position: relative;
+    display: none;
+    
+}
+
+.container-menu-mobile {
+    width: 100px;
+    height: 120px;
+}
+
+.menu-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:  100px;
+    height: 100px;
+}
+
+.icon-menu{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-menu:hover{
+    background-color: #727272;
+}
+
+@media (min-width:635px) {
+    .menu-mobile {
+        display: none;
+    }
+}
+
 @media (max-width:769px){
 
 .container-banner {
