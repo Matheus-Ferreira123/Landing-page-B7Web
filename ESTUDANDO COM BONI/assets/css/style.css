@@ -350,7 +350,7 @@ footer .widget-body {
     position: relative;
     display: none;
     
-}
+}   
 
 .container-menu-mobile {
     width: 100px;
@@ -381,6 +381,10 @@ footer .widget-body {
     .menu-mobile {
         display: none;
     }
+    .container-menu-mobile{
+        display: none;
+    }
+
 }
 
 @media (max-width:769px){
@@ -391,6 +395,8 @@ footer .widget-body {
 .banner-headline h1 {
     font-size: 60px;
 }
+
+
 }
 
 @media (max-width: 426px) {
